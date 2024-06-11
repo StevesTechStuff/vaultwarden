@@ -12,21 +12,21 @@ This repository contains the configuration and setup for running Vaultwarden in 
 
 1. Clone this repository to your local machine:
 
-    
+    ```sh
     git clone https://github.com/StevesTechStuff/vaultwarden.git
     cd vaultwarden
     ```
 
 2. Edit the `.env` file with your domain and email details:
 
-    
-    DOMAIN=vaultwarden.url.net
+    ```plaintext
+    DOMAIN=vault.stevestechstuff.net
     EMAIL=youremail@example.com
     ```
 
 3. Start the Docker containers:
 
-    
+    ```sh
     docker-compose up -d
     ```
 
