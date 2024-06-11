@@ -20,7 +20,7 @@ This repository contains the configuration and setup for running Vaultwarden in 
 2. Edit the `.env` file with your domain and email details:
 
     ```plaintext
-    DOMAIN=vault.stevestechstuff.net
+    DOMAIN=vaultwarden.url.net
     EMAIL=youremail@example.com
     ```
 
